@@ -1,0 +1,794 @@
+/* Estilos gerais */
+body {
+    font-family: "Teachers", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    touch-action: manipulation;
+}
+
+header {
+    color: #333;
+    padding: 20px 0;
+    margin-top: -20px;
+}
+
+.image-wrapper {
+    text-align: right;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.image-laranja {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin-top: -110px;
+    right: 200px;
+}
+
+.banner {
+    width: 100%;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 70%;
+    height: 550px;
+    object-fit: fill;
+}
+a  {
+    display: block;
+}
+
+
+nav {
+    background-color: #1A3F13;
+    height: 50px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #1A3F13;
+}
+
+.hero p {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.btn-inscricao {
+    background-color: #4a8377;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-inscricao:hover {
+    background-color: #ad86ce;
+    color: #333;
+}
+
+.secao-beneficios {
+    padding: 20px;
+}
+
+.listabonus {
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.listabonus img {
+    justify-content: center;
+    text-align: center;
+    margin: -5px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.secao-bonus h2 {
+    border: 5px double #809E6C;
+    font-size: 40px;
+    padding: -100px;
+
+}
+
+.secao-bonus img {
+    transition: transform 0.3s ease;
+}
+
+.secao-bonus img.hovered {
+    transform: scale(1.2);
+}
+
+.sc-hero {
+    margin-top: 0;
+}
+
+.sc-beneficios p {
+    padding: 1px;
+    margin-top: -10px;
+}
+
+.secao-beneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.beneficio  {
+    flex: 1 1 calc(50% - 20px);
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.beneficio img {
+    margin: 50px 0 50px 50px;
+    max-width: 555px;
+    background-color: transparent;
+    margin-right: -150px;
+}
+
+.beneficio p {
+    font-size: 25px;
+    line-height: 1.7;
+    color: #78857B;
+    text-align: justify;
+    margin-top: -70px;
+}
+
+.secao-programa {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    max-width: 1000px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sc-programa {
+    background-color: #809E6C;
+}
+
+.waves {
+    margin-bottom: -100px;
+    display: flex;
+    z-index: 2;
+}
+
+.banner-marcelanutri {
+    margin-top: -200px;
+    margin-left: 770px;
+    z-index: 2;
+}
+
+.wave {
+    background-color: transparent;
+    align-items: baseline;
+}
+
+.secao-programa h2 {
+    padding-top: 20px;
+    position: absolute;
+    font-size: 28px;
+    color: rgb(252, 249, 244);
+    text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
+    margin: 0 0 50px 50px ;
+    text-align: center;
+}
+
+.secao-programa ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-top: 19px;
+}
+
+.secao-programa ul li {
+    font-size: 22px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    margin-top: 25px;
+    text-align: justify;
+    color: white;
+}
+
+.secbeneficios {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 1000px;
+    width: 90%;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.secbeneficios {
+    padding: 20;
+}
+
+.secao-programa img {
+    vertical-align: middle;
+    gap: -70;
+}
+
+.button-compra {
+    background-color: #648b73;
+    border-radius: 5px;
+    border: #020500;
+    width: 20%;
+    height: 70px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 670px;
+    box-shadow: rgba(177, 212, 198, 0.25) 0px 30px 60px -12px inset, rgba(224, 12, 12, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.bonus-exclusivos {
+    display: flex;
+    justify-content: center;
+    background-color: #fefeff8f;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.secao-garantia {
+    display: flex;
+    justify-content: center;
+    background-color: #1B3F12;
+    padding: 20px;
+    width: 1000;
+    margin: 20px auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.listagarantia {
+    list-style-type: none;
+    color: rgb(237, 240, 237);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+}
+
+.listagarantia strong {
+    color: rgb(144, 146, 20);
+    text-decoration: underline;
+}
+
+.mentoria li {
+    width: 180px;
+    text-align: justify;
+}
+
+.bonus-exclusivos h3 {
+    align-self: center;
+    align-items: center;
+}
+
+.bonus-exclusivos ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.linha-promocao {
+    display: grid;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.secao-precos {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 1000px;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.secao-precos h2 {
+    box-shadow: rgb(41, 94, 52) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(89, 134, 106) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(81, 117, 96) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #809E6C;
+}
+
+.pacote {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 34px;
+    border: 5px dashed #78857B;
+}
+
+.secao-precos h3 {
+    color: #809E6C;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.secao-precos p {
+    font-size: 54px;
+    font-weight: bold;
+    color: #90c21d;
+}
+
+.secao-precos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.secao-precos ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.secao-bonus {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    width: 65%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    border: 5px dashed #78857B;
+}
+
+.secao-bonus li {
+    flex-direction: column-reverse;
+    list-style-type: none;
+    text-overflow: ellipsis;
+    font-size: 17px;
+}
+
+.secao-bonus li img {
+    justify-content: space-around;
+    margin-top: 1px;
+}
+
+/* Estilo para a seção de depoimentos */
+.secao-depoimentos {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 85%;
+    height: 380px;
+    padding: 4px;
+    padding-top: -20px;
+    background-color: white;
+    box-shadow: 10px #6ABD45;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.secao-depoimentos h2 {
+    position: absolute;
+    font-size: 24px;
+    color: #1B3F12;
+    text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
+    margin: 1px 0px 300px 10px;
+    margin-top: -230px;
+}
+
+.depoimento {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(140, 185, 150);
+    border-radius: 0px;
+    margin: 27px 5px;
+    background-color: transparent;
+}
+
+.depoimento p {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: start;
+    color: #78857B;
+}
+
+.secao-depoimentos button {
+    padding: 150px 15px;
+    background-image: url('/images/seta.png');
+    background-color: transparent;
+    color: #080707;
+    border: none;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.secao-depoimentos button i {
+    margin-left: 5px;
+}
+
+.depoimento cite {
+    font-style: italic;
+    text-transform: initial;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.depoimento-ativo {
+    display: block;
+}
+
+.depoimentos-inativos {
+    display: none;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navegacao button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.navegacao button {
+    background-color: #bbb;
+}
+
+.navegacao button.desativado {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.button-comprafinal {
+    background-color: #648b73;
+    border-radius: 5px;
+    border: #020500;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    box-shadow: rgba(177, 212, 198, 0.25) 0px 30px 60px -12px inset, rgba(224, 12, 12, 0.3) 0px 18px 36px -18px inset;
+}
+
+#botaocompra:hover {
+    background-color: red;
+}
+
+
+@media screen and (max-width: 490px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Teachers", sans-serif;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        /* Evita arraste horizontal */
+        touch-action: manipulation;
+        /* Evita o zoom */
+        width: 100%;
+        /* Garante que a largura seja 100% */
+    }
+
+    .banner  img {
+        width: 130%;
+        height: 100%;
+        object-fit: fill;
+    }
+
+    nav {
+        background-color: #1A3F13;
+        height: 50px;
+        color: white;
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 30px;
+    }
+
+    nav ul li {
+        flex: 0 0 auto;
+        margin: 10px 5px;
+        font-size: 16px;
+    }
+
+    .waves {
+    margin-bottom: 0px;
+    z-index: 1;
+    }
+
+ 
+    
+   
+    .hero h1 {
+        font-size: 34px;
+        margin: 0 10px;
+    }
+
+    .hero p {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .btn-inscricao {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .secao-beneficios{
+        height: 50px;
+    }
+
+
+    .secao-precos,
+    .secao-programa,
+    .container-promocoes {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        /* Garante que padding não cause overflow */
+    }
+
+    
+
+    .secao-garantia {
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .secao-programa h2 {
+        padding-top: 1px;
+        padding-bottom: 100p;
+
+        padding: -2px;
+        right: 20;
+        font-size: 23px;
+        margin-top: 10px;
+    }
+
+    .secao-programa ul li {
+        font-size: 21px;
+        padding-top: 10px;
+
+        margin-bottom: 10px;
+        vertical-align: middle;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .linha-promocao,
+    .promocao {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+        box-shadow: none;
+    }
+
+    .beneficio {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .beneficio img {
+        position: absolute;
+        top: 10;
+        left: 0;
+        right: 50;
+        bottom: 0;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        opacity: 0.25;
+        background-color: rgba(255, 255, 255, 0.062);
+
+        /* Garanta que a opacidade esteja visível */
+        z-index: 1;
+        /* Certifique-se de que o z-index não está ocultando a imagem */
+    }
+
+    .beneficio p {
+        font-size: 20px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        /* Garanta que o texto esteja acima da imagem */
+        padding: 20px;
+        text-align: justify;
+        color: black;
+        line-height: 1.5;
+
+    }
+
+    .secao-depoimentos {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        padding: 3.5px;
+        background-color: white;
+        box-shadow: 10px #6ABD45;
+        margin-bottom: 70px;
+        margin-top: 130px;
+    }
+    
+    .secao-depoimentos h2 {
+        position: absolute;
+        font-size: 24px;
+        color: #1B3F12;
+        text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
+        margin-top: -290px;
+    }
+    
+    .depoimento {
+        display: flex;
+        padding: 10px;
+        border: 1px solid rgb(140, 185, 150);
+        border-radius: 0px;
+        background-color: transparent;
+        flex-direction: column;
+    }
+    
+    .depoimento p {
+        font-size: 25px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: start;
+        color: #78857B;
+    }
+
+    .secao-bonus {
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        max-width: 1000px;
+        width: 85%;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        border: 5px dashed #78857B;
+    }
+
+    .secao-precos h3 {
+        font-size: 30px;
+    }
+
+    .secao-precos p {
+        font-size: 50px;
+    }
+
+    .secao-precos ul li {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.705);
+        text-align: center;
+        font-weight: 800;
+    }
+
+
+    .button-compra {
+        background-color: #d681ab;
+        border-radius: 5px;
+        border: #000000;
+        width: 80%;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Teachers", sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
