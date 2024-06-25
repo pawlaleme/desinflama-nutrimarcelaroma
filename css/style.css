@@ -41,7 +41,8 @@ header {
     height: 550px;
     object-fit: fill;
 }
-a  {
+
+a {
     display: block;
 }
 
@@ -168,7 +169,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.beneficio  {
+.beneficio {
     flex: 1 1 calc(50% - 20px);
     background-color: transparent;
     border-radius: 5px;
@@ -233,7 +234,7 @@ nav ul li a {
     font-size: 28px;
     color: rgb(252, 249, 244);
     text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
-    margin: 0 0 50px 50px ;
+    margin: 0 0 50px 50px;
     text-align: center;
 }
 
@@ -563,7 +564,7 @@ nav ul li a {
         /* Garante que a largura seja 100% */
     }
 
-    .banner  img {
+    .banner img {
         width: 130%;
         height: 100%;
         object-fit: fill;
@@ -574,6 +575,7 @@ nav ul li a {
         height: 50px;
         color: white;
     }
+
     nav ul {
         list-style: none;
         margin: 0;
@@ -581,7 +583,7 @@ nav ul li a {
         justify-content: center;
         align-items: center;
         padding: 0;
-        gap: 30px;
+        gap: 1;
     }
 
     nav ul li {
@@ -591,13 +593,13 @@ nav ul li a {
     }
 
     .waves {
-    margin-bottom: 0px;
-    z-index: 1;
+        margin-bottom: 0px;
+        z-index: 1;
     }
 
- 
-    
-   
+
+
+
     .hero h1 {
         font-size: 34px;
         margin: 0 10px;
@@ -613,7 +615,7 @@ nav ul li a {
         font-size: 14px;
     }
 
-    .secao-beneficios{
+    .secao-beneficios {
         height: 50px;
     }
 
@@ -628,7 +630,7 @@ nav ul li a {
         /* Garante que padding não cause overflow */
     }
 
-    
+
 
     .secao-garantia {
         text-align: justify;
@@ -712,7 +714,7 @@ nav ul li a {
         margin-bottom: 70px;
         margin-top: 130px;
     }
-    
+
     .secao-depoimentos h2 {
         position: absolute;
         font-size: 24px;
@@ -720,7 +722,7 @@ nav ul li a {
         text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
         margin-top: -290px;
     }
-    
+
     .depoimento {
         display: flex;
         padding: 10px;
@@ -729,7 +731,7 @@ nav ul li a {
         background-color: transparent;
         flex-direction: column;
     }
-    
+
     .depoimento p {
         font-size: 25px;
         line-height: 1.5;
@@ -740,7 +742,6 @@ nav ul li a {
 
     .secao-bonus {
         display: flex;
-        align-items: center;
         margin: 20px auto;
         max-width: 1000px;
         width: 85%;
@@ -791,4 +792,3 @@ nav ul li a {
         justify-content: space-around;
     }
 }
-
