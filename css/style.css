@@ -38,14 +38,13 @@ header {
 
 .banner img {
     width: 70%;
-    height: 550px;
+    height: auto;
     object-fit: fill;
 }
 
 a {
     display: block;
 }
-
 
 nav {
     background-color: #1A3F13;
@@ -66,7 +65,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0 5px;
-    font-size: 30px;
+    font-size: 2rem;
     margin-top: 5px;
 }
 
@@ -83,14 +82,14 @@ nav ul li a {
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 3.33rem;
     margin-bottom: 20px;
     font-weight: 800;
     color: #1A3F13;
 }
 
 .hero p {
-    font-size: 32px;
+    font-size: 2.13rem;
     margin-bottom: 20px;
     font-weight: 400;
 }
@@ -102,7 +101,7 @@ nav ul li a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -136,9 +135,8 @@ nav ul li a {
 
 .secao-bonus h2 {
     border: 5px double #809E6C;
-    font-size: 40px;
+    font-size: 2.67rem;
     padding: -100px;
-
 }
 
 .secao-bonus img {
@@ -189,7 +187,7 @@ nav ul li a {
 }
 
 .beneficio p {
-    font-size: 25px;
+    font-size: 1.67rem;
     line-height: 1.7;
     color: #78857B;
     text-align: justify;
@@ -231,7 +229,7 @@ nav ul li a {
 .secao-programa h2 {
     padding-top: 20px;
     position: absolute;
-    font-size: 28px;
+    font-size: 1.87rem;
     color: rgb(252, 249, 244);
     text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
     margin: 0 0 50px 50px;
@@ -247,7 +245,7 @@ nav ul li a {
 }
 
 .secao-programa ul li {
-    font-size: 22px;
+    font-size: 1.47rem;
     margin-bottom: 15px;
     vertical-align: middle;
     margin-top: 25px;
@@ -286,7 +284,7 @@ nav ul li a {
     color: white;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.33rem;
     margin-left: 670px;
     box-shadow: rgba(177, 212, 198, 0.25) 0px 30px 60px -12px inset, rgba(224, 12, 12, 0.3) 0px 18px 36px -18px inset;
 }
@@ -362,7 +360,7 @@ nav ul li a {
     flex-direction: column;
     margin: 20px auto;
     max-width: 1000px;
-    font-size: 40px;
+    font-size: 2.67rem;
     border-radius: 5px;
     margin-top: 50px;
     padding: 0 20px;
@@ -372,7 +370,7 @@ nav ul li a {
     box-shadow: rgb(41, 94, 52) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(89, 134, 106) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(81, 117, 96) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 34px;
+    font-size: 2.27rem;
     color: #809E6C;
 }
 
@@ -381,18 +379,18 @@ nav ul li a {
     margin-bottom: 20px;
     padding: 20px;
     text-align: center;
-    font-size: 34px;
+    font-size: 2.27rem;
     border: 5px dashed #78857B;
 }
 
 .secao-precos h3 {
     color: #809E6C;
-    font-size: 50px;
+    font-size: 3.33rem;
     margin-bottom: 10px;
 }
 
 .secao-precos p {
-    font-size: 54px;
+    font-size: 3.6rem;
     font-weight: bold;
     color: #90c21d;
 }
@@ -404,7 +402,7 @@ nav ul li a {
 }
 
 .secao-precos ul li {
-    font-size: 20px;
+    font-size: 1.33rem;
     margin-bottom: 5px;
     color: rgb(0, 0, 0);
 }
@@ -428,7 +426,7 @@ nav ul li a {
     flex-direction: column-reverse;
     list-style-type: none;
     text-overflow: ellipsis;
-    font-size: 17px;
+    font-size: 1.13rem;
 }
 
 .secao-bonus li img {
@@ -453,7 +451,7 @@ nav ul li a {
 
 .secao-depoimentos h2 {
     position: absolute;
-    font-size: 24px;
+    font-size: 1.6rem;
     color: #1B3F12;
     text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
     margin: 1px 0px 300px 10px;
@@ -471,7 +469,7 @@ nav ul li a {
 }
 
 .depoimento p {
-    font-size: 25px;
+    font-size: 1.67rem;
     line-height: 1.5;
     margin-bottom: 10px;
     text-align: start;
@@ -498,7 +496,7 @@ nav ul li a {
 .depoimento cite {
     font-style: italic;
     text-transform: initial;
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -539,7 +537,7 @@ nav ul li a {
     color: white;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.33rem;
     box-shadow: rgba(177, 212, 198, 0.25) 0px 30px 60px -12px inset, rgba(224, 12, 12, 0.3) 0px 18px 36px -18px inset;
 }
 
@@ -547,9 +545,7 @@ nav ul li a {
     background-color: red;
 }
 
-
 @media screen and (max-width: 490px) {
-
     html,
     body {
         margin: 0;
@@ -557,16 +553,13 @@ nav ul li a {
         font-family: "Teachers", sans-serif;
         background-color: #ffffff;
         overflow-x: hidden;
-        /* Evita arraste horizontal */
         touch-action: manipulation;
-        /* Evita o zoom */
         width: 100%;
-        /* Garante que a largura seja 100% */
     }
 
     .banner img {
-        width: 130%;
-        height: 100%;
+        width: 100%;
+        height: auto;
         object-fit: fill;
     }
 
@@ -589,7 +582,7 @@ nav ul li a {
     nav ul li {
         flex: 0 0 auto;
         margin: 10px 5px;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .waves {
@@ -597,28 +590,24 @@ nav ul li a {
         z-index: 1;
     }
 
-
-
-
     .hero h1 {
-        font-size: 34px;
+        font-size: 2.27rem;
         margin: 0 10px;
     }
 
     .hero p {
-        font-size: 24px;
+        font-size: 1.6rem;
         margin: 0 10px;
     }
 
     .btn-inscricao {
         padding: 8px 16px;
-        font-size: 14px;
+        font-size: 0.87rem;
     }
 
     .secao-beneficios {
         height: 50px;
     }
-
 
     .secao-precos,
     .secao-programa,
@@ -627,10 +616,7 @@ nav ul li a {
         margin: 0;
         width: 100%;
         box-sizing: border-box;
-        /* Garante que padding não cause overflow */
     }
-
-
 
     .secao-garantia {
         text-align: justify;
@@ -641,18 +627,16 @@ nav ul li a {
 
     .secao-programa h2 {
         padding-top: 1px;
-        padding-bottom: 100p;
-
+        padding-bottom: 100px;
         padding: -2px;
         right: 20;
-        font-size: 23px;
+        font-size: 1.53rem;
         margin-top: 10px;
     }
 
     .secao-programa ul li {
-        font-size: 21px;
+        font-size: 1.4rem;
         padding-top: 10px;
-
         margin-bottom: 10px;
         vertical-align: middle;
         margin-top: 25px;
@@ -685,23 +669,18 @@ nav ul li a {
         height: auto;
         opacity: 0.25;
         background-color: rgba(255, 255, 255, 0.062);
-
-        /* Garanta que a opacidade esteja visível */
         z-index: 1;
-        /* Certifique-se de que o z-index não está ocultando a imagem */
     }
 
     .beneficio p {
-        font-size: 20px;
+        font-size: 1.33rem;
         width: 100%;
         position: relative;
         z-index: 2;
-        /* Garanta que o texto esteja acima da imagem */
         padding: 20px;
         text-align: justify;
         color: black;
         line-height: 1.5;
-
     }
 
     .secao-depoimentos {
@@ -717,7 +696,7 @@ nav ul li a {
 
     .secao-depoimentos h2 {
         position: absolute;
-        font-size: 24px;
+        font-size: 1.6rem;
         color: #1B3F12;
         text-shadow: -11px 3px 16px rgba(0, 0, 0, 1);
         margin-top: -290px;
@@ -733,7 +712,7 @@ nav ul li a {
     }
 
     .depoimento p {
-        font-size: 25px;
+        font-size: 1.67rem;
         line-height: 1.5;
         margin-bottom: 10px;
         text-align: start;
@@ -755,20 +734,19 @@ nav ul li a {
     }
 
     .secao-precos h3 {
-        font-size: 30px;
+        font-size: 1.87rem;
     }
 
     .secao-precos p {
-        font-size: 50px;
+        font-size: 2.5rem;
     }
 
     .secao-precos ul li {
-        font-size: 18px;
+        font-size: 1.13rem;
         color: rgba(0, 0, 0, 0.705);
         text-align: center;
         font-weight: 800;
     }
-
 
     .button-compra {
         background-color: #d681ab;
@@ -783,7 +761,7 @@ nav ul li a {
         text-transform: uppercase;
         font-family: "Teachers", sans-serif;
         font-weight: 800;
-        font-size: 20px;
+        font-size: 1.33rem;
         margin-bottom: 17px;
     }
 
