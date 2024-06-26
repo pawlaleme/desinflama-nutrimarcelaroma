@@ -66,6 +66,27 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const bannerImage = document.querySelector('.banner-image');
+
+    function checkScreenWidth() {
+        if (window.innerWidth <= 430) {
+            bannerImage.style.animation = 'slide 10s linear infinite';
+        } else {
+            bannerImage.style.animation = 'none'; // Remove a animação para telas maiores
+            bannerImage.style.transform = 'translateX(0)'; // Reinicia a posição
+        }
+    }
+
+    checkScreenWidth(); // Executa na carga da página
+
+    window.addEventListener('resize', function () {
+        checkScreenWidth(); // Executa ao redimensionar a janela
+    });
+
+
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     // Garantir que o carregamento seja exibido por pelo menos 5 segundos
     setTimeout(function () {
@@ -83,4 +104,3 @@ document.addEventListener("DOMContentLoaded", function () {
         window.open('https://hotmart.com/pt-br/marketplace/produtos/desinflama-3x/M92273721N', '_blank');
     });
 });
-
