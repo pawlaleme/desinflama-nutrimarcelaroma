@@ -553,7 +553,7 @@ nav ul li a {
     }
 
     nav ul li {
-        font-size: 15px;
+        font-size: 14px;
         display: flex;
         margin-top: 15px;
         margin: 10px 0;
@@ -695,8 +695,17 @@ nav ul li a {
         margin-right: 10px;
     }
 
+   .pacote h3 {
+        font-size: 45px;
+    }
+
+    .secao-precos h2 {
+        margin-right: 10px;
+    }
+
     .pacote p{
         font-size: 49px;
     }
+        
 
 }
