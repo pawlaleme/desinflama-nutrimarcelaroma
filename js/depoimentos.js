@@ -77,5 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', function () {
         checkScreenWidth(); // Executa ao redimensionar a janela
     });
+
+
 });
 
