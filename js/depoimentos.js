@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Garantir que o carregamento seja exibido por pelo menos 5 segundos
+    setTimeout(function () {
+        document.getElementById("loading").style.display = "none";
+    }, 3000); // 5000 milissegundos = 5 segundos
+});
+document.addEventListener("DOMContentLoaded", function () {
     let depoimentos = document.querySelectorAll('.secao-depoimentos .depoimento');
     let index = 0;
 
